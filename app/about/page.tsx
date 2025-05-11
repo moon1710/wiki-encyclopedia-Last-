@@ -7,7 +7,7 @@ export default function AboutPage() {
   return (
     <div className="min-h-screen flex flex-col">
       {/* Header */}
-      <header className="bg-gradient-to-r from-purple-600 via-pink-500 to-orange-400 text-white">
+      <header className="bg-gradient-to-r from-cyan-600 via-pink-500 to-orange-400 text-white">
         <div className="container mx-auto px-4 py-20 text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">About ModernPedia</h1>
           <p className="text-xl max-w-3xl mx-auto">
@@ -19,7 +19,7 @@ export default function AboutPage() {
       {/* Navigation */}
       <div className="bg-white shadow-md">
         <div className="container mx-auto px-4 py-4">
-          <Link href="/" className="flex items-center text-purple-600 font-medium">
+          <Link href="/" className="flex items-center text-cyan-600 font-medium">
             <ArrowLeft className="mr-2 h-4 w-4" /> Back to Home
           </Link>
         </div>
@@ -53,15 +53,15 @@ export default function AboutPage() {
       </section>
 
       {/* Our Values */}
-      <section className="py-16 bg-purple-50">
+      <section className="py-16 bg-cyan-50">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12 text-gray-800">Our Values</h2>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Value 1 */}
             <div className="bg-white rounded-xl shadow-md p-8 text-center">
-              <div className="w-16 h-16 rounded-full bg-purple-100 flex items-center justify-center mb-6 mx-auto">
-                <BookOpen className="h-8 w-8 text-purple-600" />
+              <div className="w-16 h-16 rounded-full bg-cyan-100 flex items-center justify-center mb-6 mx-auto">
+                <BookOpen className="h-8 w-8 text-cyan-600" />
               </div>
               <h3 className="text-xl font-semibold mb-4 text-gray-800">Accessible Knowledge</h3>
               <p className="text-gray-600">
@@ -106,7 +106,7 @@ export default function AboutPage() {
                 <Image src="/placeholder.svg?height=300&width=300" alt="Team Member" fill className="object-cover" />
               </div>
               <h3 className="text-xl font-semibold text-gray-800">Sarah Johnson</h3>
-              <p className="text-purple-600">Founder & CEO</p>
+              <p className="text-cyan-600">Founder & CEO</p>
             </div>
 
             {/* Team Member 2 */}
@@ -115,7 +115,7 @@ export default function AboutPage() {
                 <Image src="/placeholder.svg?height=300&width=300" alt="Team Member" fill className="object-cover" />
               </div>
               <h3 className="text-xl font-semibold text-gray-800">Michael Chen</h3>
-              <p className="text-purple-600">Chief Content Officer</p>
+              <p className="text-cyan-600">Chief Content Officer</p>
             </div>
 
             {/* Team Member 3 */}
@@ -124,7 +124,7 @@ export default function AboutPage() {
                 <Image src="/placeholder.svg?height=300&width=300" alt="Team Member" fill className="object-cover" />
               </div>
               <h3 className="text-xl font-semibold text-gray-800">Aisha Patel</h3>
-              <p className="text-purple-600">Head of Technology</p>
+              <p className="text-cyan-600">Head of Technology</p>
             </div>
 
             {/* Team Member 4 */}
@@ -133,20 +133,20 @@ export default function AboutPage() {
                 <Image src="/placeholder.svg?height=300&width=300" alt="Team Member" fill className="object-cover" />
               </div>
               <h3 className="text-xl font-semibold text-gray-800">David Rodriguez</h3>
-              <p className="text-purple-600">Creative Director</p>
+              <p className="text-cyan-600">Creative Director</p>
             </div>
           </div>
         </div>
       </section>
 
       {/* CTA */}
-      <section className="py-16 bg-gradient-to-r from-purple-600 via-pink-500 to-orange-400 text-white">
+      <section className="py-16 bg-gradient-to-r from-cyan-600 via-pink-500 to-orange-400 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Explore?</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
             Dive into our encyclopedia and discover a new way to experience knowledge
           </p>
-          <Button asChild size="lg" className="bg-white text-purple-600 hover:bg-gray-100">
+          <Button asChild size="lg" className="bg-white text-cyan-600 hover:bg-gray-100">
             <Link href="/encyclopedia">Start Exploring</Link>
           </Button>
         </div>
@@ -165,10 +165,10 @@ export default function AboutPage() {
                 Encyclopedia
               </Link>
               <Link href="/about" className="text-gray-300 hover:text-white transition-colors">
-                About Us
+                Conocenos
               </Link>
               <Link href="#" className="text-gray-300 hover:text-white transition-colors">
-                Contact
+                Contacto
               </Link>
             </div>
           </div>

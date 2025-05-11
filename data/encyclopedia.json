@@ -53,6 +53,24 @@
         "NASA. (2022). Global Climate Change: Vital Signs of the Planet. Retrieved from https://climate.nasa.gov/",
         "United Nations. (2015). Paris Agreement. United Nations Treaty Collection."
       ]
+    },
+    {
+      "id": "4",
+      "title": "Titlo 4",
+      "excerpt": "Long-term shifts in temperatures and weather patterns, primarily caused by human activities.",
+      "content": "Climate change refers to long-term shifts in temperatures and weather patterns. These shifts may be natural, but since the 1800s, human activities have been the main driver of climate change, primarily due to the burning of fossil fuels like coal, oil, and gas, which produces heat-trapping gases.\n\n# Causes of Climate Change\n\nThe primary cause of current climate change is the human expansion of the \"greenhouse effect\" — warming that results when the atmosphere traps heat radiating from Earth toward space. Certain gases in the atmosphere block heat from escaping, including:\n\n- Carbon dioxide (CO2): Released through human activities such as deforestation and burning fossil fuels, as well as natural processes like respiration.\n\n- Methane: Emitted during the production and transport of coal, natural gas, and oil, as well as from livestock and agricultural practices.\n\n- Nitrous oxide: Emitted during agricultural and industrial activities, as well as during combustion of fossil fuels and solid waste.\n\n---\n\n## Effects of Climate Change\n\nThe effects of climate change are widespread and include:\n\n- Rising global temperatures: The Earth's average surface temperature has risen about 1.1°C since the late 19th century.\n\n- Warming oceans: The oceans have absorbed much of this increased heat, with the top 100 meters warming by more than 0.33°C since 1969.\n\n- Shrinking ice sheets and glacial retreat: The Greenland and Antarctic ice sheets have decreased in mass, while glaciers are retreating almost everywhere around the world.\n\n- Sea level rise: Global sea level rose about 8 inches in the last century, with the rate accelerating in recent decades.\n\n- Extreme weather events: The number of record high temperature events has been increasing, while the number of record low temperature events has been decreasing in the United States since 1950.\n\n## Mitigation and Adaptation\n\nAddressing climate change requires both mitigation (reducing emissions of and stabilizing the levels of heat-trapping greenhouse gases in the atmosphere) and adaptation (adjusting to actual or expected future climate). International efforts like the Paris Agreement aim to limit global warming to well below 2°C compared to pre-industrial levels.",
+      "image": "/placeholder.svg?height=600&width=800",
+      "imageCaption": "Visual depiction of climate change effects on the planet",
+      "secondaryImage": "/placeholder.svg?height=600&width=800",
+      "secondaryImageCaption": "Renewable energy sources as part of climate change mitigation",
+      "audio": "/audio/climate-change.mp3",
+      "videos": ["G4H1N_yXBiA", "oYhCQv5tNsQ", "SWmEo_PcGzM"],
+      "categories": ["Environment", "Science", "Global Issues"],
+      "references": [
+        "IPCC. (2021). Climate Change 2021: The Physical Science Basis. Cambridge University Press.",
+        "NASA. (2022). Global Climate Change: Vital Signs of the Planet. Retrieved from https://climate.nasa.gov/",
+        "United Nations. (2015). Paris Agreement. United Nations Treaty Collection."
+      ]
     }
   ]
 }

@@ -33,6 +33,7 @@ export default function EncyclopediaPage() {
     }
   }, [])
 
+  //Filtro pa busqueda
   useEffect(() => {
     let filtered = entries
 
@@ -60,18 +61,18 @@ export default function EncyclopediaPage() {
   return (
     <div className="min-h-screen flex flex-col bg-gray-50">
       {/* Header */}
-      <header className="bg-gradient-to-r from-purple-600 via-pink-500 to-orange-400 text-white">
+      <header className="bg-gradient-to-r from-cyan-600 via-pink-500 to-orange-400 text-white">
         <div className="container mx-auto px-4 py-16 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">Encyclopedia</h1>
-          <p className="text-xl max-w-3xl mx-auto">Explore our collection of multimedia encyclopedia entries</p>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6">MarkupVerse</h1>
+          <p className="text-xl max-w-3xl mx-auto">Explora nuestra colección de entradas</p>
         </div>
       </header>
 
       {/* Navigation */}
       <div className="bg-white shadow-md">
         <div className="container mx-auto px-4 py-4">
-          <Link href="/" className="flex items-center text-purple-600 font-medium">
-            <ArrowLeft className="mr-2 h-4 w-4" /> Back to Home
+          <Link href="/" className="flex items-center text-cyan-600 font-medium">
+            <ArrowLeft className="mr-2 h-4 w-4" /> Home
           </Link>
         </div>
       </div>
@@ -84,7 +85,7 @@ export default function EncyclopediaPage() {
               <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" size={18} />
               <Input
                 type="text"
-                placeholder="Search entries..."
+                placeholder="Buscar entradas..."
                 className="pl-10 bg-white border-gray-200"
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
@@ -98,7 +99,7 @@ export default function EncyclopediaPage() {
                   key={category}
                   variant={selectedCategory === category ? "default" : "outline"}
                   className={`cursor-pointer ${
-                    selectedCategory === category ? "bg-purple-600 hover:bg-purple-700" : "hover:bg-purple-100"
+                    selectedCategory === category ? "bg-cyan-600 hover:bg-cyan-700" : "hover:bg-cyan-100"
                   }`}
                   onClick={() => handleCategorySelect(category)}
                 >
@@ -115,16 +116,16 @@ export default function EncyclopediaPage() {
         <div className="container mx-auto px-4">
           {filteredEntries.length === 0 ? (
             <div className="text-center py-12">
-              <p className="text-gray-500 text-lg">No entries found matching your criteria.</p>
+              <p className="text-gray-500 text-lg">No se encontraron resultados para tu búsqueda.</p>
               <Button
                 variant="link"
-                className="text-purple-600 mt-2"
+                className="text-cyan-600 mt-2"
                 onClick={() => {
                   setSearchQuery("")
                   setSelectedCategory(null)
                 }}
               >
-                Clear filters
+                Limpiar Filtros
               </Button>
             </div>
           ) : (
@@ -143,7 +144,7 @@ export default function EncyclopediaPage() {
                         <div className="absolute top-3 right-3 bg-white/80 rounded-full p-2">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
-                            className="h-5 w-5 text-purple-600"
+                            className="h-5 w-5 text-cyan-600"
                             fill="none"
                             viewBox="0 0 24 24"
                             stroke="currentColor"
@@ -183,7 +184,7 @@ export default function EncyclopediaPage() {
                       )}
                     </div>
                     <CardContent className="p-6">
-                      <h3 className="text-xl font-semibold mb-2 text-gray-800 group-hover:text-purple-600 transition-colors">
+                      <h3 className="text-xl font-semibold mb-2 text-gray-800 group-hover:text-cyan-600 transition-colors">
                         {entry.title}
                       </h3>
                       <p className="text-gray-600 mb-4 line-clamp-3">
@@ -192,7 +193,7 @@ export default function EncyclopediaPage() {
                       <div className="flex flex-wrap gap-2 mt-auto">
                         {entry.categories &&
                           entry.categories.map((category) => (
-                            <Badge key={category} variant="secondary" className="bg-purple-100 text-purple-700">
+                            <Badge key={category} variant="secondary" className="bg-cyan-100 text-cyan-700">
                               {category}
                             </Badge>
                           ))}
@@ -211,23 +212,23 @@ export default function EncyclopediaPage() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="mb-6 md:mb-0">
-              <h2 className="text-2xl font-bold mb-2">ModernPedia</h2>
-              <p className="text-gray-400">Expanding your knowledge horizons</p>
+              <h2 className="text-2xl font-bold mb-2">MarkupVerse</h2>
+              <p className="text-gray-400">La guía interactiva para dominar los lenguajes de marcado</p>
             </div>
             <div className="flex gap-6">
               <Link href="/encyclopedia" className="text-gray-300 hover:text-white transition-colors">
                 Encyclopedia
               </Link>
               <Link href="/about" className="text-gray-300 hover:text-white transition-colors">
-                About Us
+                Conocenos
               </Link>
               <Link href="#" className="text-gray-300 hover:text-white transition-colors">
-                Contact
+                Contacto
               </Link>
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            © {new Date().getFullYear()} ModernPedia. All rights reserved.
+            © {new Date().getFullYear()} MarkupVerse. Todos los derechos reservados.
           </div>
         </div>
       </footer>

@@ -91,7 +91,7 @@ export default function EntryPage() {
       <div className="bg-white shadow-md sticky top-0 z-10">
         <div className="container mx-auto px-4 py-4">
           <div className="flex justify-between items-center">
-            <Link href="/encyclopedia" className="flex items-center text-purple-600 font-medium">
+            <Link href="/encyclopedia" className="flex items-center text-cyan-600 font-medium">
               <ArrowLeft className="mr-2 h-4 w-4" /> Back to Encyclopedia
             </Link>
 
@@ -119,7 +119,7 @@ export default function EntryPage() {
         )}
 
         {/* Title Section */}
-        <header className="bg-gradient-to-r from-purple-600 via-pink-500 to-orange-400 text-white py-16">
+        <header className="bg-gradient-to-r from-cyan-600 via-pink-500 to-orange-400 text-white py-16">
           <div className="container mx-auto px-4 text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-6">{entry.title}</h1>
             {entry.categories && (
@@ -254,10 +254,10 @@ export default function EntryPage() {
                 Encyclopedia
               </Link>
               <Link href="/about" className="text-gray-300 hover:text-white transition-colors">
-                About Us
+                Conocenos
               </Link>
               <Link href="#" className="text-gray-300 hover:text-white transition-colors">
-                Contact
+                Contacto
               </Link>
             </div>
           </div>
