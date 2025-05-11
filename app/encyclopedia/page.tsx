@@ -61,7 +61,7 @@ export default function EncyclopediaPage() {
   return (
     <div className="min-h-screen flex flex-col bg-gray-50">
       {/* Header */}
-      <header className="bg-gradient-to-r from-cyan-600 via-pink-500 to-orange-400 text-white">
+      <header className="bg-gradient-to-r from-cyan-600 via-blue-500 to-cyan-400 text-white">
         <div className="container mx-auto px-4 py-16 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">MarkupVerse</h1>
           <p className="text-xl max-w-3xl mx-auto">Explora nuestra colección de entradas</p>
@@ -222,7 +222,7 @@ export default function EncyclopediaPage() {
               <Link href="/about" className="text-gray-300 hover:text-white transition-colors">
                 Conocenos
               </Link>
-              <Link href="#" className="text-gray-300 hover:text-white transition-colors">
+              <Link href="/about" className="text-gray-300 hover:text-white transition-colors">
                 Contacto
               </Link>
             </div>
