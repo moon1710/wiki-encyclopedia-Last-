@@ -119,7 +119,7 @@ export default function EntryPage() {
         )}
 
         {/* Title Section */}
-        <header className="bg-gradient-to-r from-cyan-600 via-pink-500 to-orange-400 text-white py-16">
+        <header className="bg-gradient-to-r from-cyan-600 via-cyan-500 to-blue-400 text-white py-16">
           <div className="container mx-auto px-4 text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-6">{entry.title}</h1>
             {entry.categories && (
