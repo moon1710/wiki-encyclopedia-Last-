@@ -7,7 +7,7 @@ export default function AboutPage() {
   return (
     <div className="min-h-screen flex flex-col">
       {/* Header */}
-      <header className="bg-gradient-to-r from-cyan-600 via-pink-500 to-orange-400 text-white">
+      <header className="bg-gradient-to-r from-cyan-600 via-blue-500 to-cyan-400 text-white">
         <div className="container mx-auto px-4 py-20 text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
             Acerca de MarkupVerse
@@ -45,12 +45,6 @@ export default function AboutPage() {
                 forma moderna e interactiva.
               </p>
               <p className="text-gray-600 mb-4 leading-relaxed">
-                Traditional encyclopedias present information in a static,
-                text-heavy format. We believed there was a better way—one that
-                engages multiple senses and learning styles through rich
-                multimedia content.
-              </p>
-              <p className="text-gray-600 leading-relaxed">
                 La educación tradicional sobre estos lenguajes suele ser densa y
                 textual. Nosotros apostamos por una forma multimedia, accesible
                 y visual para que cualquier persona, sin importar su nivel,
@@ -58,11 +52,14 @@ export default function AboutPage() {
                 desarrolladores y entusiastas del frontend decididos a crear una
                 plataforma hecha por programadores, para programadores.
               </p>
+              <p className="text-gray-600 mb-4 leading-relaxed">
+              Somos un equipo de estudiantes, desarrolladores y entusiastas del frontend decididos a crear una plataforma hecha por programadores, para programadores.
+              </p>
             </div>
             <div className="md:w-1/2 relative h-80 md:h-96 rounded-xl overflow-hidden shadow-xl">
               <Image
-                src="/placeholder.svg?height=600&width=800"
-                alt="Our Team"
+                src="/img/study.jpg?height=600&width=800"
+                alt="Nuestro Equipo"
                 fill
                 className="object-cover"
               />
@@ -136,7 +133,7 @@ export default function AboutPage() {
             <div className="text-center">
               <div className="relative w-48 h-48 mx-auto rounded-full overflow-hidden mb-4">
                 <Image
-                  src="/placeholder.svg?height=300&width=300"
+                  src="/img/mon.jpeg?height=300&width=300"
                   alt="Team Member"
                   fill
                   className="object-cover"
@@ -161,7 +158,7 @@ export default function AboutPage() {
               <h3 className="text-xl font-semibold text-gray-800">
                 Luis Angel Ramirez
               </h3>
-              <p className="text-cyan-600"></p>
+              <p className="text-cyan-600">Head of Technology</p>
             </div>
 
             {/* Team Member 3 */}
@@ -212,8 +209,8 @@ export default function AboutPage() {
               <p className="text-cyan-600">Head of Technology</p>
             </div>
 
-                        {/* Profesora */}
-                        <div className="text-center">
+            {/* Profesora */}
+            <div className="text-center">
               <div className="relative w-48 h-48 mx-auto rounded-full overflow-hidden mb-4">
                 <Image
                   src="/placeholder.svg?height=300&width=300"
@@ -232,13 +229,14 @@ export default function AboutPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-16 bg-gradient-to-r from-cyan-600 via-pink-500 to-orange-400 text-white">
+      <section className="py-16 bg-gradient-to-r from-cyan-600 via-blue-500 to-cyan-400 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-          ¿Listo para Explorar?
+            ¿Listo para Explorar?
           </h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
-          Sumérgete en el universo de los lenguajes de marcado y empieza tu viaje como desarrollador web.
+            Sumérgete en el universo de los lenguajes de marcado y empieza tu
+            viaje como desarrollador web.
           </p>
           <Button
             asChild
@@ -256,7 +254,10 @@ export default function AboutPage() {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="mb-6 md:mb-0">
               <h2 className="text-2xl font-bold mb-2">MarkupVerse</h2>
-              <p className="text-gray-400">La guía interactiva sobre lenguajes de marcado para programadores</p>
+              <p className="text-gray-400">
+                La guía interactiva sobre lenguajes de marcado para
+                programadores
+              </p>
             </div>
             <div className="flex gap-6">
               <Link
@@ -280,7 +281,8 @@ export default function AboutPage() {
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            © {new Date().getFullYear()} MarkupVerse. Todos los derechos reservados.
+            © {new Date().getFullYear()} MarkupVerse. Todos los derechos
+            reservados.
           </div>
         </div>
       </footer>
