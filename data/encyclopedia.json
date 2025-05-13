@@ -69,6 +69,76 @@
       "videos": ["hZYaSGUbMds", "ZJSCl6XEdP8", "emFMHH2Bfvo"],
       "categories": ["Gráficos Vectoriales", "XML", "Web"],
       "references": []
+    },
+    {
+      "id": "6",
+      "title": "XML (Extensible Markup Language)",
+      "excerpt": "Lenguaje de marcado extensible para definir y almacenar datos de forma estructurada y legible.",
+      "content": "XML (Extensible Markup Language)\n\nDefinición\n\nXML es un lenguaje de marcado desarrollado por el W3C que permite definir y almacenar datos de forma estructurada y legible tanto por humanos como por máquinas. A diferencia de HTML, XML no tiene etiquetas predefinidas, lo que permite a los usuarios crear sus propias etiquetas para describir los datos de manera personalizada.\n\nCaracterísticas\n\n- Extensibilidad: los usuarios pueden definir sus propias etiquetas y estructuras.\n\n- Legibilidad: los documentos XML son legibles por humanos y máquinas.\n\n- Estructura jerárquica: datos organizados en un árbol con un elemento raíz.\n\n- Validación: uso de DTD o XSD para validar estructura y contenido.\n\n- Independencia de plataforma: facilita el intercambio entre sistemas heterogéneos.\n\nUso y aplicaciones\n\n- Intercambio de datos entre sistemas.\n\n- Configuración de aplicaciones.\n\n- Servicios web (SOAP).\n\n- Documentación técnica.\n\n- Almacenamiento en bases de datos XML.",
+      "image": "https://www.kindpng.com/picc/m/367-3679723_xml-xml-logo-hd-png-download.png",
+      "imageCaption": "Flexibilidad de etiquetas personalizadas en XML",
+      "secondaryImage": "https://logodix.com/img/logo/367-3679723_xml-xml-logo-hd-png-download.png",
+      "secondaryImageCaption": "Estructura de árbol y validación en XML",
+      "audio": "",
+      "videos": ["PxGICnkFZJU", "SKOVdy5fGMM", "AZihBEg8VBk"],
+      "categories": ["Datos Estructurados", "W3C", "Intercambio de Datos"],
+      "references": []
+    },
+    {
+      "id": "7",
+      "title": "JSON (JavaScript Object Notation)",
+      "excerpt": "Formato de texto ligero para el intercambio de datos con sintaxis clara de pares clave-valor.",
+      "content": "JSON (JavaScript Object Notation)\n\nDefinición\n\nJSON es un formato de texto ligero para intercambio de datos, con sintaxis fácil de leer y escribir para humanos y de analizar para máquinas. Aunque deriva de JavaScript, JSON es independiente del lenguaje y se ha convertido en un estándar de facto en APIs web.\n\nCaracterísticas\n\n- Ligero y eficiente: reduce el tamaño de los datos transmitidos.\n\n- Legible: sintaxis clara de pares clave-valor.\n\n- Independiente de lenguaje: usado en Python, Java, C#, etc.\n\n- Estructura jerárquica basada en objetos y arreglos.\n\n- Amplio soporte en lenguajes modernos.\n\nOrigen\n\nDesarrollado por Douglas Crockford a principios de los 2000 para simplificar XML.\n\nUso y aplicaciones\n\n- APIs RESTful.\n\n- Configuración de aplicaciones.\n\n- Bases de datos NoSQL (MongoDB).\n\n- Sincronización en móviles.\n\n- Microservicios.",
+      "image": "https://www.liblogo.com/lib/json-logo.svg",
+      "imageCaption": "Notación de pares clave-valor en JSON",
+      "secondaryImage": "https://static.vecteezy.com/system/resources/previews/002/188/387/non_2x/json-file-vector.jpg",
+      "secondaryImageCaption": "Estructura jerárquica de objetos y arreglos",
+      "audio": "",
+      "videos": ["YYfediyCwAU", "oVuYDKWvomk", "LJzDHKPLWYw"],
+      "categories": ["APIs", "NoSQL", "Intercambio de Datos"],
+      "references": []
+    },
+    {
+      "id": "8",
+      "title": "XHTML (eXtensible HyperText Markup Language)",
+      "excerpt": "Versión de HTML basada en XML con sintaxis estricta para mejorar interoperabilidad y estructura.",
+      "content": "XHTML (eXtensible HyperText Markup Language)\n\nDefinición\n\nXHTML combina la flexibilidad de HTML con la sintaxis y extensibilidad de XML. Es un estándar W3C que exige documentos bien formados: etiquetas anidadas y cerradas, atributos entre comillas.\n\nCaracterísticas\n\n- Basado en XML: documentos bien formados.\n\n- Sintaxis estricta: requiere cierre y anidamiento correcto.\n\n- Extensibilidad: integración con otros lenguajes XML.\n\n- Modularidad: uso de módulos para diferentes necesidades.\n\n- Separación de contenido y presentación (XHTML + CSS).\n\nOrigen\n\nPublicación oficial en enero de 2000 por el W3C.\n\nUso y aplicaciones\n\n- Páginas web con estructura rigurosa.\n\n- XHTML Basic y Mobile Profile en dispositivos limitados.\n\n- Integración con SVG y MathML.\n\n- Enriquecimiento semántico con XHTML+RDFa.",
+      "image": "https://www.svgrepo.com/show/22564/xhtml-file-format-variant.svg",
+      "imageCaption": "Sintaxis estricta y anidamiento en XHTML",
+      "secondaryImage": "https://cdn.vecteezy.com/system/resources/previews/000/163/940/original/xhtml-file-format-line-icon-vector.jpg",
+      "secondaryImageCaption": "Modularidad y compatibilidad XML en XHTML",
+      "audio": "",
+      "videos": ["O32o6jdvGF4", "qYlpu5wpSak", "BFg6Jwcf6-4"],
+      "categories": ["Web Semántica", "XML", "Accesibilidad"],
+      "references": []
+    },
+    {
+      "id": "9",
+      "title": "MathML (Mathematical Markup Language)",
+      "excerpt": "Lenguaje XML para describir notación matemática y capturar su estructura y semántica.",
+      "content": "MathML (Mathematical Markup Language)\n\nDefinición\n\nMathML es un lenguaje de marcado basado en XML diseñado para describir notación matemática, capturando tanto presentación como semántica.\n\nCaracterísticas\n\n- Basado en XML: integración fluida con HTML5.\n\n- Presentation MathML: controla la apariencia visual.\n\n- Content MathML: captura el significado semántico.\n\n- Extensible: admite nuevas necesidades y objetos matemáticos.\n\n- Interoperabilidad: facilita intercambio entre sistemas.\n\nOrigen\n\nRecomendado por el W3C en 1998, evolucionando hasta la versión 4.0.\n\nUso y aplicaciones\n\n- Educación: materiales didácticos online.\n\n- Publicaciones: artículos académicos con fórmulas precisas.\n\n- Web: integración de contenido matemático accesible.\n\n- Software: intercambio de datos entre sistemas de álgebra.\n",
+      "image": "https://daisy.org/wp-content/uploads/2023/03/mathml-icon.png",
+      "imageCaption": "Notación de expresiones matemáticas en MathML",
+      "secondaryImage": "https://www.educba.com/wp-content/uploads/2021/07/MathML-What-is-MathML.jpg",
+      "secondaryImageCaption": "Distinción entre Presentation y Content MathML",
+      "audio": "",
+      "videos": ["gAux-vNEuIU", "5vEF1gHNKzw", "9h7mMFFWer0"],
+      "categories": ["Educación", "Publicaciones Científicas", "Web"],
+      "references": []
+    },
+    {
+      "id": "10",
+      "title": "Markdown",
+      "excerpt": "Lenguaje de marcado ligero para escribir texto plano que se convierte fácilmente a HTML.",
+      "content": "Markdown\n\nDefinición\n\nMarkdown es un lenguaje ligero creado en 2004 por John Gruber y Aaron Swartz, para escribir texto plano legible que se transforma en HTML válido.\n\nCaracterísticas\n\n- Sintaxis mínima: usa caracteres como asteriscos, guiones y almohadillas.\n\n- Conversión a HTML: ideal para contenido web.\n\n- Legibilidad: archivos .md legibles sin procesamiento.\n\n- Portabilidad: texto plano compatible con múltiples plataformas.\n\n- Extensiones: GitHub Flavored Markdown, R Markdown, CommonMark.\n\nOrigen\n\nDesarrollado para simplificar la redacción y publicación de contenido en la web.\n\nUso y aplicaciones\n\n- Documentación técnica (README.md).\n\n- Blogs y generadores estáticos (Jekyll, Hugo).\n\n- Notas y sistemas de gestión de conocimiento (Obsidian, Notion).\n\n- Educación: Jupyter Notebooks.\n\n- Colaboración: GitHub, Stack Overflow.",
+      "image": "https://logo.wine/a/logo/Markdown-MD-Logo.wine.svg",
+      "imageCaption": "Conversión sencilla de texto plano a HTML en Markdown",
+      "secondaryImage": "https://www.fullstackpython.com/images/markdown_og.png",
+      "secondaryImageCaption": "Sintaxis mínima y legible de Markdown",
+      "audio": "",
+      "videos": ["FlsoBiteuPM", "ntT7wDaNX2E", "_hI14xuvQag"],
+      "categories": ["Documentación", "Blogs", "Educación"],
+      "references": []
     }
   ]
 }
