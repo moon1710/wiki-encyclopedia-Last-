@@ -2,75 +2,73 @@
   "entries": [
     {
       "id": "1",
-      "title": "Quantum Computing",
-      "excerpt": "A revolutionary computing paradigm that leverages quantum mechanics to perform complex calculations.",
-      "content": "Quantum computing is an area of computing focused on developing computer technology based on the principles of quantum theory. Quantum computers use quantum bits or qubits, which can exist in multiple states simultaneously, unlike classical bits that can only be in one state at a time (0 or 1).\n\n# History of Quantum Computing\n\nThe concept of quantum computing was first proposed by physicist Richard Feynman in 1982. Feynman suggested that quantum computers would be effective tools for simulating quantum systems, a task that classical computers find exponentially difficult as the system size increases.\n\n## Key Principles\n\nQuantum computing relies on several key principles from quantum mechanics:\n\n- Superposition: Qubits can exist in multiple states simultaneously, allowing quantum computers to process a vast number of possibilities at once.\n\n- Entanglement: Quantum particles can become correlated in such a way that the quantum state of each particle cannot be described independently of the others, regardless of the distance separating them.\n\n- Quantum interference: The ability to manipulate the probability of various outcomes, enhancing the likelihood of obtaining the correct answer when the qubits are measured.\n\n---\n\n## Applications\n\nQuantum computing has potential applications in various fields, including cryptography, drug discovery, optimization problems, artificial intelligence, and material science. For example, quantum computers could break many of the cryptographic systems currently used to secure internet communications, while also enabling the development of new, quantum-resistant cryptographic methods.\n\n## Current Challenges\n\nDespite significant progress, quantum computing faces several challenges:\n\n- Decoherence: Quantum systems are extremely sensitive to environmental disturbances, which can cause qubits to lose their quantum properties.\n\n- Error correction: Quantum error correction is necessary to protect quantum information from decoherence and other quantum noise.\n\n- Scalability: Building large-scale quantum computers with many qubits while maintaining coherence is a significant engineering challenge.\n\n## Future Prospects\n\nAs research continues and technology advances, quantum computers are expected to become more powerful and practical. They may eventually solve problems that are currently intractable for classical computers, leading to breakthroughs in various fields and potentially transforming our understanding of computation itself.",
-      "image": "/img/img1.jpeg",
-      "imageCaption": "Artistic representation of a quantum computer's processing unit",
-      "secondaryImage": "/placeholder.svg?height=600&width=800",
-      "secondaryImageCaption": "Diagram of a quantum circuit with multiple qubits",
-      "audio": "/audio/audio1.mp3",
-      "videos": ["fkGzkZJTCng?si=ZGCvsR3OpZKl8iSv", "JhHMJCUmq28", "OWJCfOvochA"],
-      "categories": ["Technology", "Physics", "Computing"],
-      "references": [
-        "Feynman, R. P. (1982). Simulating physics with computers. International Journal of Theoretical Physics, 21(6/7).",
-        "Nielsen, M. A., & Chuang, I. L. (2010). Quantum Computation and Quantum Information. Cambridge University Press.",
-        "Preskill, J. (2018). Quantum Computing in the NISQ era and beyond. Quantum, 2, 79."
-      ]
-    },
+      "title": "Lenguajes de marcas y su integración en el desarrollo web",
+      "excerpt": "Introducción a los lenguajes de marcado, su clasificación (presentación, procedimientos y descriptivos) y su papel dentro del desarrollo web.",
+      "content": "Lenguajes de marcas y su integración en el desarrollo web\n\n¿Qué es un lenguaje de marcas?\n\nUn lenguaje de marcas (o lenguaje de marcado) es un sistema de notación para representar datos de forma estructurada mediante etiquetas dentro del contenido. Dichas etiquetas añaden información adicional —tanto para la comprensión humana como para el procesamiento por programas— y suelen delimitarse con símbolos como <, >, :, -, etc.\n\nEn general, un lenguaje de marcas define estructura, tipo, atributos, relaciones e incluso la presentación o el significado de los datos.\n\nClasificación de los Lenguajes de Marcas\n\n1. Lenguajes de Presentación\n\n¿Qué son?\n\nLenguajes cuyo propósito principal es definir cómo se muestra el contenido (presentación visual o estética). Las etiquetas no se visualizan al usuario final: este ve directamente el contenido ya formateado.\n\nCaracterísticas principales:\n\n- Ocultan las etiquetas al usuario final, mostrando solo el contenido formateado.\n\n- Se centran en especificar elementos visuales como fuente, tamaño, color o posición.\n\n- No describen significado ni estructura semántica, únicamente la apariencia.\n\n2. Lenguajes de Procedimientos\n\n¿Qué son?\n\nTambién orientados a la presentación visual, pero sus etiquetas indican acciones o instrucciones que deben ejecutarse al interpretar el documento.\n\nCaracterísticas principales:\n\n- Las etiquetas provocan acciones o comportamientos específicos (cargar imágenes, reproducir multimedia, enlazar documentos, ejecutar comandos, etc.).\n\n- Mezclan formato visual con instrucciones de interacción.\n\n- Están estrechamente ligados a la aplicación que procesa y muestra el contenido.\n\n3. Lenguajes Descriptivos o Semánticos\n\n¿Qué son?\n\nLenguajes que describen la estructura o el significado del contenido sin dictar cómo debe visualizarse. Priorizan la organización lógica de los datos para facilitar su interpretación por programas.\n\nCaracterísticas principales:\n\n- Las etiquetas describen la naturaleza y la estructura de los datos, no su apariencia.\n\n- Favorecen el procesamiento automático por aplicaciones.\n\n- Facilitan la interoperabilidad y el intercambio estructurado de información entre sistemas.\n",
+      "image": "https://kinsta.com/es/wp-content/uploads/sites/8/2020/01/editores-html-gratuitos.jpg",
+      "imageCaption": "Lenguajes de marcado",
+      "secondaryImage": "https://kinsta.com/es/wp-content/uploads/sites/8/2021/12/aprender-html.png",
+      "secondaryImageCaption": "Permiten un procesamiento automático sencillo",
+      "audio": "",
+      "videos": ["nO9KycWFClM", "3CZCV5-HVRg", "QHDdGBivwA8"],
+      "categories": ["Desarrollo Web", "Lenguajes de Marcado", "Tecnología"],
+      "references": []
+    },       
     {
       "id": "2",
-      "title": "Artificial Intelligence",
-      "excerpt": "The simulation of human intelligence processes by machines, especially computer systems.",
-      "content": "Artificial Intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think and learn like humans. The term may also be applied to any machine that exhibits traits associated with a human mind such as learning and problem-solving.\n\n# Evolution of AI\n\nThe concept of artificial intelligence was first coined in 1956 at the Dartmouth Conference, where the field was officially founded. Since then, AI has gone through several cycles of optimism followed by disappointment and funding cuts, known as \"AI winters.\"\n\n## Types of AI\n\nAI can be categorized into several types:\n\n- Narrow or Weak AI: Designed to perform a narrow task (e.g., facial recognition, internet searches, driving a car).\n\n- General or Strong AI: Possesses the ability to perform any intellectual task that a human being can do.\n\n- Superintelligent AI: Surpasses human intelligence and ability, potentially across all fields including creativity, general wisdom, and problem-solving.\n\n---\n\n## Machine Learning and Deep Learning\n\nMachine Learning (ML) is a subset of AI that provides systems the ability to automatically learn and improve from experience without being explicitly programmed. Deep Learning is a further subset of ML that uses neural networks with many layers (hence \"deep\") to analyze various factors of data.\n\n## AI in Modern Society\n\nAI has become increasingly prevalent in our daily lives, powering technologies such as:\n\n- Virtual assistants (Siri, Alexa, Google Assistant)\n- Recommendation systems (Netflix, Amazon, Spotify)\n- Autonomous vehicles\n- Medical diagnosis and treatment planning\n- Financial trading and fraud detection\n\n## Ethical Considerations\n\nAs AI continues to advance, it raises important ethical questions about privacy, bias, accountability, and the potential impact on employment and society. Ensuring that AI systems are developed and used responsibly is a critical concern for researchers, policymakers, and society as a whole.",
-      "image": "/placeholder.svg?height=600&width=800",
-      "imageCaption": "Visual representation of neural networks and AI concepts",
-      "secondaryImage": "/placeholder.svg?height=600&width=800",
-      "secondaryImageCaption": "Advanced robotics powered by artificial intelligence",
-      "audio": "/audio/artificial-intelligence.mp3",
-      "videos": ["kWmX3pd1f10", "oV74Najm6Nc", "mJeNghZXtMo"],
-      "categories": ["Technology", "Computer Science", "Ethics"],
-      "references": [
-        "Russell, S., & Norvig, P. (2020). Artificial Intelligence: A Modern Approach (4th ed.). Pearson.",
-        "Goodfellow, I., Bengio, Y., & Courville, A. (2016). Deep Learning. MIT Press.",
-        "Bostrom, N. (2014). Superintelligence: Paths, Dangers, Strategies. Oxford University Press."
-      ]
+      "title": "Rich Text Format (RTF)",
+      "excerpt": "Formato de texto enriquecido desarrollado por Microsoft para intercambio de documentos con formato entre diferentes plataformas.",
+      "content": "Rich Text Format (RTF)\n\nDefinición\n\nRTF es un formato de archivo desarrollado por Microsoft en 1987, diseñado para permitir el intercambio de documentos de texto con formato entre diferentes procesadores de texto y sistemas operativos. Este formato utiliza una sintaxis basada en texto plano que incorpora códigos de control para representar elementos de formato como negrita, cursiva, tamaños de fuente, colores y otros estilos. Su principal objetivo es garantizar la portabilidad y la preservación del formato básico del texto a través de diversas plataformas.\n\nCaracterísticas\n\n- Portabilidad: RTF es ampliamente compatible con numerosos procesadores de texto en diferentes sistemas operativos, facilitando el intercambio de documentos sin pérdida significativa de formato.\n\n- Formato basado en texto plano: los archivos RTF son legibles en editores de texto simples, ya que su estructura se basa en texto plano con códigos de control.\n\n- Soporte de formato básico: permite aplicar estilos como negrita, cursiva, subrayado, alineaciones, listas y tablas simples.\n\n- Inclusión de imágenes y objetos: es posible insertar imágenes y objetos OLE, aunque la compatibilidad puede variar según la aplicación utilizada.\n\n- Independencia de plataforma: diseñado para ser independiente del hardware y del sistema operativo, lo que facilita su uso en entornos heterogéneos.\n\nOrigen\n\nRTF fue desarrollado por Microsoft en 1987 como parte de su estrategia para facilitar el intercambio de documentos entre diferentes aplicaciones y sistemas operativos.\n\nUso y aplicaciones\n\n- Intercambio de documentos: facilita el intercambio de documentos entre diferentes procesadores de texto sin pérdida significativa de formato.\n\n- Compatibilidad con sistemas antiguos: útil en entornos donde se requiere compatibilidad con versiones antiguas de software.\n\n- Documentación técnica y educativa: debido a su simplicidad y legibilidad, se emplea en la creación de manuales y documentos educativos.\n\n- Aplicaciones de software: algunas aplicaciones utilizan RTF para generar informes o documentos que requieren formato básico.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Rtf-format-icon.png/600px-Rtf-format-icon.png",
+      "imageCaption": "Intercambio de documentos con formato enriquecido en RTF",
+      "secondaryImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/RTF_sample_document.png/600px-RTF_sample_document.png",
+      "secondaryImageCaption": "Código de control RTF aplicado a texto",
+      "audio": "/audio/rtf.mp3",
+      "videos": ["lYGL7Gi50OY", "_e0R0VJvb90", "BtpCaZF3RlE"],
+      "categories": ["Formatos de Archivo", "Documentos", "Microsoft"],
+      "references": []
     },
     {
       "id": "3",
-      "title": "Climate Change",
-      "excerpt": "Long-term shifts in temperatures and weather patterns, primarily caused by human activities.",
-      "content": "Climate change refers to long-term shifts in temperatures and weather patterns. These shifts may be natural, but since the 1800s, human activities have been the main driver of climate change, primarily due to the burning of fossil fuels like coal, oil, and gas, which produces heat-trapping gases.\n\n# Causes of Climate Change\n\nThe primary cause of current climate change is the human expansion of the \"greenhouse effect\" — warming that results when the atmosphere traps heat radiating from Earth toward space. Certain gases in the atmosphere block heat from escaping, including:\n\n- Carbon dioxide (CO2): Released through human activities such as deforestation and burning fossil fuels, as well as natural processes like respiration.\n\n- Methane: Emitted during the production and transport of coal, natural gas, and oil, as well as from livestock and agricultural practices.\n\n- Nitrous oxide: Emitted during agricultural and industrial activities, as well as during combustion of fossil fuels and solid waste.\n\n---\n\n## Effects of Climate Change\n\nThe effects of climate change are widespread and include:\n\n- Rising global temperatures: The Earth's average surface temperature has risen about 1.1°C since the late 19th century.\n\n- Warming oceans: The oceans have absorbed much of this increased heat, with the top 100 meters warming by more than 0.33°C since 1969.\n\n- Shrinking ice sheets and glacial retreat: The Greenland and Antarctic ice sheets have decreased in mass, while glaciers are retreating almost everywhere around the world.\n\n- Sea level rise: Global sea level rose about 8 inches in the last century, with the rate accelerating in recent decades.\n\n- Extreme weather events: The number of record high temperature events has been increasing, while the number of record low temperature events has been decreasing in the United States since 1950.\n\n## Mitigation and Adaptation\n\nAddressing climate change requires both mitigation (reducing emissions of and stabilizing the levels of heat-trapping greenhouse gases in the atmosphere) and adaptation (adjusting to actual or expected future climate). International efforts like the Paris Agreement aim to limit global warming to well below 2°C compared to pre-industrial levels.",
-      "image": "/placeholder.svg?height=600&width=800",
-      "imageCaption": "Visual depiction of climate change effects on the planet",
-      "secondaryImage": "/placeholder.svg?height=600&width=800",
-      "secondaryImageCaption": "Renewable energy sources as part of climate change mitigation",
-      "audio": "/audio/climate-change.mp3",
-      "videos": ["G4H1N_yXBiA", "oYhCQv5tNsQ", "SWmEo_PcGzM"],
-      "categories": ["Environment", "Science", "Global Issues"],
-      "references": [
-        "IPCC. (2021). Climate Change 2021: The Physical Science Basis. Cambridge University Press.",
-        "NASA. (2022). Global Climate Change: Vital Signs of the Planet. Retrieved from https://climate.nasa.gov/",
-        "United Nations. (2015). Paris Agreement. United Nations Treaty Collection."
-      ]
+      "title": "TeX",
+      "excerpt": "Sistema de composición tipográfica desarrollado por Donald E. Knuth para obtener alta calidad en textos científicos y técnicos.",
+      "content": "TeX\n\nDefinición\n\nTeX es un lenguaje de marcas y un sistema de composición tipográfica creado por el matemático e informático Donald E. Knuth en 1978. Su objetivo principal es permitir la creación de documentos con una alta calidad tipográfica, especialmente aquellos que contienen fórmulas matemáticas complejas. TeX se basa en comandos que controlan la disposición y el formato del texto, proporcionando un control preciso sobre la presentación del documento final.\n\nCaracterísticas\n\n- Alta calidad tipográfica: TeX produce documentos con una calidad tipográfica que cumple con los estándares de publicaciones científicas y técnicas.\n\n- Precisión en la composición: permite un control detallado sobre la disposición del texto, incluyendo espaciado, interlineado y justificación.\n\n- Soporte para matemáticas: ofrece una capacidad excepcional para la composición de fórmulas y expresiones matemáticas complejas.\n\n- Portabilidad: los documentos TeX son independientes de la plataforma, lo que garantiza una presentación consistente en diferentes sistemas.\n\n- Extensibilidad: es posible crear macros y extensiones para adaptar TeX a necesidades específicas.\n\nUso y aplicaciones\n\nLaTeX es ampliamente utilizado en:\n\n- Publicaciones científicas y técnicas.\n\n- Tesis y disertaciones académicas.\n\n- Presentaciones (mediante la clase beamer).\n\n- Currículos y cartas formales.\n\n- Documentación técnica y manuales de usuario.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/TeX_logo.svg/600px-TeX_logo.svg.png",
+      "imageCaption": "Control tipográfico preciso mediante TeX",
+      "secondaryImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/LaTeX_logo.svg/600px-LaTeX_logo.svg.png",
+      "secondaryImageCaption": "Macros y comandos de LaTeX para la composición",
+      "audio": "",
+      "videos": ["ydOTMQC7np0", "oSigbWpcoI8", "p5Yr0dkrKG8"],
+      "categories": ["Tipografía", "Publicaciones Científicas", "Donald Knuth"],
+      "references": []
     },
     {
       "id": "4",
-      "title": "Titlo 4",
-      "excerpt": "Long-term shifts in temperatures and weather patterns, primarily caused by human activities.",
-      "content": "Climate change refers to long-term shifts in temperatures and weather patterns. These shifts may be natural, but since the 1800s, human activities have been the main driver of climate change, primarily due to the burning of fossil fuels like coal, oil, and gas, which produces heat-trapping gases.\n\n# Causes of Climate Change\n\nThe primary cause of current climate change is the human expansion of the \"greenhouse effect\" — warming that results when the atmosphere traps heat radiating from Earth toward space. Certain gases in the atmosphere block heat from escaping, including:\n\n- Carbon dioxide (CO2): Released through human activities such as deforestation and burning fossil fuels, as well as natural processes like respiration.\n\n- Methane: Emitted during the production and transport of coal, natural gas, and oil, as well as from livestock and agricultural practices.\n\n- Nitrous oxide: Emitted during agricultural and industrial activities, as well as during combustion of fossil fuels and solid waste.\n\n---\n\n## Effects of Climate Change\n\nThe effects of climate change are widespread and include:\n\n- Rising global temperatures: The Earth's average surface temperature has risen about 1.1°C since the late 19th century.\n\n- Warming oceans: The oceans have absorbed much of this increased heat, with the top 100 meters warming by more than 0.33°C since 1969.\n\n- Shrinking ice sheets and glacial retreat: The Greenland and Antarctic ice sheets have decreased in mass, while glaciers are retreating almost everywhere around the world.\n\n- Sea level rise: Global sea level rose about 8 inches in the last century, with the rate accelerating in recent decades.\n\n- Extreme weather events: The number of record high temperature events has been increasing, while the number of record low temperature events has been decreasing in the United States since 1950.\n\n## Mitigation and Adaptation\n\nAddressing climate change requires both mitigation (reducing emissions of and stabilizing the levels of heat-trapping greenhouse gases in the atmosphere) and adaptation (adjusting to actual or expected future climate). International efforts like the Paris Agreement aim to limit global warming to well below 2°C compared to pre-industrial levels.",
-      "image": "/placeholder.svg?height=600&width=800",
-      "imageCaption": "Visual depiction of climate change effects on the planet",
-      "secondaryImage": "/placeholder.svg?height=600&width=800",
-      "secondaryImageCaption": "Renewable energy sources as part of climate change mitigation",
-      "audio": "/audio/climate-change.mp3",
-      "videos": ["G4H1N_yXBiA", "oYhCQv5tNsQ", "SWmEo_PcGzM"],
-      "categories": ["Environment", "Science", "Global Issues"],
-      "references": [
-        "IPCC. (2021). Climate Change 2021: The Physical Science Basis. Cambridge University Press.",
-        "NASA. (2022). Global Climate Change: Vital Signs of the Planet. Retrieved from https://climate.nasa.gov/",
-        "United Nations. (2015). Paris Agreement. United Nations Treaty Collection."
-      ]
+      "title": "HTML (HyperText Markup Language)",
+      "excerpt": "Lenguaje de marcado estándar para crear y estructurar páginas web, base del desarrollo front-end.",
+      "content": "HTML (HyperText Markup Language)\n\nDefinición\n\nHTML es el lenguaje de marcado estándar utilizado para crear y estructurar páginas web. A través de una serie de elementos y etiquetas, HTML permite definir la estructura básica de una página, incluyendo encabezados, párrafos, listas, enlaces, imágenes y otros contenidos multimedia.\n\nCaracterísticas\n\n- Estructura jerárquica: HTML organiza el contenido en una estructura jerárquica utilizando elementos anidados.\n\n- Etiquetas semánticas: incluye etiquetas que describen el significado del contenido, como <article>, <section>, <header> o <footer>.\n\n- Independencia de plataforma: los documentos HTML pueden visualizarse en cualquier navegador web, independientemente del sistema operativo.\n\n- Extensibilidad: HTML puede integrarse con CSS y JavaScript para mejorar la presentación y funcionalidad de las páginas.\n\n- Accesibilidad: permite crear contenido accesible para personas con discapacidades mediante el uso adecuado de etiquetas y atributos.\n\nUso y aplicaciones\n\n- Desarrollo de sitios web: base para la creación de páginas web estáticas y dinámicas.\n\n- Aplicaciones web: en combinación con otros lenguajes, HTML sirve para desarrollar aplicaciones accesibles desde navegadores.\n\n- Correos electrónicos: muchos correos utilizan HTML para mejorar su presentación.\n\n- Documentación técnica: permite crear manuales y documentos accesibles en línea.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/600px-HTML5_logo_and_wordmark.svg.png",
+      "imageCaption": "Estructura semántica de un documento HTML5",
+      "secondaryImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/HTML5_Badge.svg/600px-HTML5_Badge.svg.png",
+      "secondaryImageCaption": "Uso de etiquetas semánticas en HTML",
+      "audio": "",
+      "videos": ["pQN-pnXPaVg", "kUMe1FH4CHE", "PlxWf493en4"],
+      "categories": ["Desarrollo Web", "Front-end", "Marcas"],
+      "references": []
+    },
+    {
+      "id": "5",
+      "title": "SVG (Scalable Vector Graphics)",
+      "excerpt": "Lenguaje de marcado basado en XML para describir gráficos vectoriales escalables sin pérdida de calidad.",
+      "content": "SVG (Scalable Vector Graphics)\n\nDefinición\n\nSVG es un lenguaje de marcado basado en XML que permite describir gráficos vectoriales bidimensionales. A diferencia de los formatos rasterizados como JPEG o PNG, SVG define las imágenes mediante formas geométricas, lo que permite escalarlas sin pérdida de calidad.\n\nCaracterísticas\n\n- Escalabilidad: las imágenes SVG pueden ampliarse o reducirse sin perder calidad.\n\n- Interactividad y animación: SVG permite agregar interactividad y animaciones mediante JavaScript o SMIL.\n\n- Accesibilidad: al estar basado en texto, los gráficos SVG pueden indexarse y ser accesibles para tecnologías de asistencia.\n\n- Compatibilidad: es compatible con CSS para estilos y con JavaScript para interactividad.\n\n- Ligereza: los archivos SVG suelen ser más ligeros que las imágenes rasterizadas para gráficos simples.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/SVG_logo.svg/600px-SVG_logo.svg.png",
+      "imageCaption": "Definición de vectores escalables con SVG",
+      "secondaryImage": "https://photricity.com/blog/inline-svgs-scale-up-your-design-with-vector-graphics/",
+      "secondaryImageCaption": "Animaciones y gráficos dinámicos en SVG",
+      "audio": "",
+      "videos": ["hZYaSGUbMds", "ZJSCl6XEdP8", "emFMHH2Bfvo"],
+      "categories": ["Gráficos Vectoriales", "XML", "Web"],
+      "references": []
     }
   ]
 }

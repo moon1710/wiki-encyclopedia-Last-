@@ -99,11 +99,11 @@ export default function EntryPage() {
               <Button variant="outline" size="sm" className="flex items-center gap-2" onClick={toggleAudio}>
                 {isPlaying ? (
                   <>
-                    <VolumeX className="h-4 w-4" /> Pause Narration
+                    <VolumeX className="h-4 w-4" /> Pausar Narración
                   </>
                 ) : (
                   <>
-                    <Volume2 className="h-4 w-4" /> Play Narration
+                    <Volume2 className="h-4 w-4" /> Escuchar
                   </>
                 )}
               </Button>
