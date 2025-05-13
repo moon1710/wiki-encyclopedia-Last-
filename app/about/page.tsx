@@ -149,71 +149,67 @@ export default function AboutPage() {
             <div className="text-center">
               <div className="relative w-48 h-48 mx-auto rounded-full overflow-hidden mb-4">
                 <Image
-                  src="/placeholder.svg?height=300&width=300"
+                  src="https://cdn.vectorstock.com/i/500p/29/09/avatar-m-vector-37332909.jpg?height=300&width=300"
                   alt="Team Member"
                   fill
                   className="object-cover"
                 />
               </div>
               <h3 className="text-xl font-semibold text-gray-800">
-                Luis Angel Ramirez
+                Luis Angel Ramirez Julian
               </h3>
-              <p className="text-cyan-600">Head of Technology</p>
             </div>
 
             {/* Team Member 3 */}
             <div className="text-center">
               <div className="relative w-48 h-48 mx-auto rounded-full overflow-hidden mb-4">
                 <Image
-                  src="/placeholder.svg?height=300&width=300"
+                  src="https://cdn.vectorstock.com/i/500p/29/09/avatar-m-vector-37332909.jpg?height=300&width=300"
                   alt="Team Member"
                   fill
                   className="object-cover"
                 />
               </div>
               <h3 className="text-xl font-semibold text-gray-800">
-                Aisha Patel
+                Jennifer Martinez
               </h3>
-              <p className="text-cyan-600">Head of Technology</p>
             </div>
 
             {/* Team Member 4 */}
             <div className="text-center">
               <div className="relative w-48 h-48 mx-auto rounded-full overflow-hidden mb-4">
                 <Image
-                  src="/placeholder.svg?height=300&width=300"
+                  src="https://cdn.vectorstock.com/i/500p/29/09/avatar-m-vector-37332909.jpg?height=300&width=300"
                   alt="Team Member"
                   fill
                   className="object-cover"
                 />
               </div>
               <h3 className="text-xl font-semibold text-gray-800">
-                David Rodriguez
+                Jennifer
               </h3>
-              <p className="text-cyan-600">Creative Director</p>
             </div>
 
             {/* Team Member 5 */}
             <div className="text-center">
               <div className="relative w-48 h-48 mx-auto rounded-full overflow-hidden mb-4">
                 <Image
-                  src="/placeholder.svg?height=300&width=300"
+                  src="https://cdn.vectorstock.com/i/500p/29/09/avatar-m-vector-37332909.jpg?height=300&width=300"
                   alt="Team Member"
                   fill
                   className="object-cover"
                 />
               </div>
               <h3 className="text-xl font-semibold text-gray-800">
-                Aisha Patel
+                Martin Osorio Pascual
               </h3>
-              <p className="text-cyan-600">Head of Technology</p>
             </div>
 
             {/* Profesora */}
             <div className="text-center">
               <div className="relative w-48 h-48 mx-auto rounded-full overflow-hidden mb-4">
                 <Image
-                  src="/placeholder.svg?height=300&width=300"
+                  src="https://cdn.vectorstock.com/i/500p/29/09/avatar-m-vector-37332909.jpg?height=300&width=300"
                   alt="Team Member"
                   fill
                   className="object-cover"
