@@ -12,7 +12,13 @@
       "audio": "/audio/leguajes.mp4",
       "videos": ["nO9KycWFClM", "3CZCV5-HVRg", "QHDdGBivwA8"],
       "categories": ["Desarrollo Web", "Lenguajes de Marcado", "Tecnología"],
-      "references": []
+      "references": [
+        "Morales, R. (2018, November 25). Qué son los lenguajes de marcas. Ticarte.com. https://www.ticarte.com/contenido/que-son-los-lenguajes-de-marcas",
+        "¿Qué es el lenguaje de marca o lenguaje de marcado? (2023, January 24). Universidad Europea. https://universidadeuropea.com/blog/que-es-lenguaje-marca/",
+        "Ramos, M. (2021, August 18). Chapter 2 Lenguaje de marcado. Bookdown.org. https://bookdown.org/marcoyel21/r_markdown_abogados/lenguaje-de-marcado.html",
+        "(N.d.). Bibliopos.Es. Retrieved May 16, 2025, from https://www.bibliopos.es/Biblion-A2-Biblioteconomia/10Lenguajes-de-marcado.pdf"
+
+      ]
     },       
     {
       "id": "2",
@@ -26,7 +32,11 @@
       "audio": "/audio/rtf.mp3",
       "videos": ["lYGL7Gi50OY", "_e0R0VJvb90", "BtpCaZF3RlE"],
       "categories": ["Formatos de Archivo", "Documentos", "Microsoft"],
-      "references": []
+      "references": [
+                "Microsoft. (2024). Tipo RTF - Win32 apps. Recuperado de: https://learn.microsoft.com/es-es/windows/win32/msi/rtf-type",
+                "Microsoft. (2024). RichTextBox.Rtf Propiedad (System.Windows.Forms). Recuperado de: https://learn.microsoft.com/es-es/dotnet/api/system.windows.forms.richtextbox.rtf?view=windowsdesktop-9.0",
+                "Microsoft. (2024). DataFormats.Rtf Campo (System.Windows). Recuperado de: https://learn.microsoft.com/es-es/dotnet/api/system.windows.dataformats.rtf?view=windowsdesktop-9.0"
+      ]
     },
     {
       "id": "3",
@@ -40,7 +50,13 @@
       "audio": "/audio/TeX.m4a",
       "videos": ["ydOTMQC7np0", "oSigbWpcoI8", "p5Yr0dkrKG8"],
       "categories": ["Tipografía", "Publicaciones Científicas", "Donald Knuth"],
-      "references": []
+      "references": [
+                    "Manual de LaTeX. (s.f.). Tutoriales paso a paso de LaTeX. Recuperado de: https://manualdelatex.com/tutoriales",
+                    "Overleaf. (s.f.). Learn LaTeX in 30 minutes. Recuperado de: https://es.overleaf.com/learn/latex/Learn_LaTeX_in_30_minuteses.",
+                    "Universidad de Granada. (s.f.). Introducción a LaTeX. Recuperado de: https://www.ugr.es/~mmartins/material/latex_basico.pdf"
+
+
+      ]
     },
     {
       "id": "4",
@@ -54,7 +70,11 @@
       "audio": "/audio/html.mp3",
       "videos": ["pQN-pnXPaVg", "kUMe1FH4CHE", "PlxWf493en4"],
       "categories": ["Desarrollo Web", "Front-end", "Marcas"],
-      "references": []
+      "references": [
+        "Mozilla Developer Network. (s.f.). Primeros pasos con HTML. Recuperado de: https://developer.mozilla.org/es/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax",
+        "W3Schools en español. (s.f.). HTML Tutorial. Recuperado de: https://w3schoolsua.github.io/html/index_es.html",
+        "FreeCodeCamp. (s.f.). Aprende las bases de HTML para principiantes en solo 15 minutos. Recuperado de: https://www.freecodecamp.org/espanol/news/aprende-las-bases-de-html-para-principiantes-en-solo-15-minutos/"
+      ]
     },
     {
       "id": "5",
@@ -68,7 +88,11 @@
       "audio": "",
       "videos": ["hZYaSGUbMds", "ZJSCl6XEdP8", "emFMHH2Bfvo"],
       "categories": ["Gráficos Vectoriales", "XML", "Web"],
-      "references": []
+      "references": [
+                    "Mozilla Developer Network. (s.f.). Tutorial de SVG. Recuperado de: https://developer.mozilla.org/es/docs/Web/SVG/Tutorial",
+                    "FreeCodeCamp. (s.f.). Cómo utilizar imágenes SVG en CSS y HTML: Un tutorial para principiantes. Recuperado de: https://www.freecodecamp.org/espanol/news/como-utilizar-imagenes-svg-en-css-y-html-un-tutorial-para-principiantes/",
+                    "Aspose. (s.f.). Dibujo SVG – Tutorial básico. Recuperado de: https://docs.aspose.com/svg/es/net/drawing-basics/"
+      ]
     },
     {
       "id": "6",
@@ -82,21 +106,29 @@
       "audio": "/audio/xml.mp3",
       "videos": ["BM1qt2_1vdo", "SKOVdy5fGMM", "AZihBEg8VBk"],
       "categories": ["Datos Estructurados", "W3C", "Intercambio de Datos"],
-      "references": []
+      "references": [
+        "Mozilla Developer Network. (s.f.). Introducción a XML. Recuperado de: https://developer.mozilla.org/es/docs/Web/XML/Guides/XML_introduction",
+        "DesarrolloWeb. (s.f.). Introducción a XML. Recuperado de: https://desarrolloweb.com/manuales/18",
+        "Abrirllave.com. (s.f.). Tutorial de XML. Recuperado de: https://www.abrirllave.com/xml/"
+      ]
     },
     {
       "id": "7",
       "title": "JSON (JavaScript Object Notation)",
       "excerpt": "Formato de texto ligero para el intercambio de datos con sintaxis clara de pares clave-valor.",
       "content": "JSON (JavaScript Object Notation)\n\nDefinición\n\nJSON es un formato de texto ligero para intercambio de datos, con sintaxis fácil de leer y escribir para humanos y de analizar para máquinas. Aunque deriva de JavaScript, JSON es independiente del lenguaje y se ha convertido en un estándar de facto en APIs web.\n\nCaracterísticas\n\n- Ligero y eficiente: reduce el tamaño de los datos transmitidos.\n\n- Legible: sintaxis clara de pares clave-valor.\n\n- Independiente de lenguaje: usado en Python, Java, C#, etc.\n\n- Estructura jerárquica basada en objetos y arreglos.\n\n- Amplio soporte en lenguajes modernos.\n\nOrigen\n\nDesarrollado por Douglas Crockford a principios de los 2000 para simplificar XML.\n\nUso y aplicaciones\n\n- APIs RESTful.\n\n- Configuración de aplicaciones.\n\n- Bases de datos NoSQL (MongoDB).\n\n- Sincronización en móviles.\n\n- Microservicios.",
-      "image": "https://www.liblogo.com/lib/json-logo.svg",
+      "image": "https://miro.medium.com/v2/resize:fit:1400/1*_UwpoyN473NurYqgHYK0fQ.png",
       "imageCaption": "Notación de pares clave-valor en JSON",
-      "secondaryImage": "https://static.vecteezy.com/system/resources/previews/002/188/387/non_2x/json-file-vector.jpg",
+      "secondaryImage": "https://itsfoss.com/content/images/wordpress/2020/12/pretty-print-json-with-python.png",
       "secondaryImageCaption": "Estructura jerárquica de objetos y arreglos",
-      "audio": "",
+      "audio": "/audio/json.mp3",
       "videos": ["YYfediyCwAU", "oVuYDKWvomk", "LJzDHKPLWYw"],
       "categories": ["APIs", "NoSQL", "Intercambio de Datos"],
-      "references": []
+      "references": [
+        "Mozilla Developer Network. (s.f.). Trabajando con JSON. Recuperado de: https://developer.mozilla.org/es/docs/Learn_web_development/Core/Scripting/JSO",
+        "JSON.org. (s.f.). Introducción a JSON. Recuperado de: https://www.json.org/json-es.html",
+        "HubSpot. (s.f.). JSON para principiantes: qué es, para qué sirve y ejemplos. Recuperado de: https://blog.hubspot.es/website/que-es-json"
+      ]
     },
     {
       "id": "8",
@@ -105,12 +137,15 @@
       "content": "XHTML (eXtensible HyperText Markup Language)\n\nDefinición\n\nXHTML combina la flexibilidad de HTML con la sintaxis y extensibilidad de XML. Es un estándar W3C que exige documentos bien formados: etiquetas anidadas y cerradas, atributos entre comillas.\n\nCaracterísticas\n\n- Basado en XML: documentos bien formados.\n\n- Sintaxis estricta: requiere cierre y anidamiento correcto.\n\n- Extensibilidad: integración con otros lenguajes XML.\n\n- Modularidad: uso de módulos para diferentes necesidades.\n\n- Separación de contenido y presentación (XHTML + CSS).\n\nOrigen\n\nPublicación oficial en enero de 2000 por el W3C.\n\nUso y aplicaciones\n\n- Páginas web con estructura rigurosa.\n\n- XHTML Basic y Mobile Profile en dispositivos limitados.\n\n- Integración con SVG y MathML.\n\n- Enriquecimiento semántico con XHTML+RDFa.",
       "image": "https://www.svgrepo.com/show/22564/xhtml-file-format-variant.svg",
       "imageCaption": "Sintaxis estricta y anidamiento en XHTML",
-      "secondaryImage": "https://cdn.vecteezy.com/system/resources/previews/000/163/940/original/xhtml-file-format-line-icon-vector.jpg",
+      "secondaryImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqBlkCG0STPs0Je9OSh1zez0y9kroHRDdw6w&s",
       "secondaryImageCaption": "Modularidad y compatibilidad XML en XHTML",
       "audio": "/audio/xhtml.m4a",
       "videos": ["O32o6jdvGF4", "qYlpu5wpSak", "BFg6Jwcf6-4"],
       "categories": ["Web Semántica", "XML", "Accesibilidad"],
-      "references": []
+      "references": [
+        "jEsuSdA. (s.f.). Introducción a XHTML. Este documento PDF ofrece una explicación detallada sobre XHTML, sus características y diferencias con HTML. Recuperado de: https://www.jesusda.com/docs/ebooks/introduccion_xhtml.pdf?",
+        "Universidad Carlos III de Madrid. (s.f.). Introducción a XHTML. Material académico que proporciona una visión general de XHTML y su sintaxis. Recuperado de: https://www.it.uc3m.es/jaf/ttlat/xhtml.pdf?"
+      ]
     },
     {
       "id": "9",
@@ -124,7 +159,12 @@
       "audio": "/audio/MathML.m4a",
       "videos": ["gAux-vNEuIU", "5vEF1gHNKzw", "9h7mMFFWer0"],
       "categories": ["Educación", "Publicaciones Científicas", "Web"],
-      "references": []
+      "references": [
+        "Mozilla Developer Network. (s.f.). MathML - MDN Web Docs. Recuperado de: https://developer.mozilla.org/es/docs/Web/MathML",
+        "Damián De Luca. (s.f.). MathML, fórmulas matemáticas en la web. Recuperado de: https://damiandeluca.com.ar/mathml-html5",
+        "W3C. (s.f.). MathML 3.0 Specification. Recuperado de: https://www.w3.org/TR/MathML/mathml.pdf"
+
+      ]
     },
     {
       "id": "10",
@@ -138,7 +178,11 @@
       "audio": "/audio/Markdown.m4a",
       "videos": ["FlsoBiteuPM", "ntT7wDaNX2E", "_hI14xuvQag"],
       "categories": ["Documentación", "Blogs", "Educación"],
-      "references": []
+      "references": [
+        "Markdown.es. (s.f.). La guía definitiva en español. Recuperado de: https://markdown.es/",
+        "Tutorial Markdown. (s.f.). Tutorial Markdown: Aprende a usar Markdown. Recuperado de: https://tutorialmarkdown.com/",
+        "Zendesk. (s.f.). Uso de Markdown para el formato de texto. Recuperado de: https://support.zendesk.com/hc/es/articles/4408846544922-Uso-de-Markdown-para-el-formato-de-texto"
+      ]
     }
   ]
 }
